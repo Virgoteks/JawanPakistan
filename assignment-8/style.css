@@ -1,0 +1,384 @@
+
+* {
+margin: 0px;
+padding: 0px;
+}
+body {
+  height: 100%;
+  width: 1344px;
+  margin: auto;
+}
+.cf  {
+  content: ".";
+  display: table;
+  clear: both;
+}
+a,img {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+  font-size:16px;
+}
+header  {
+  width: 1344px;
+  height: 150px;
+  background-color: #002147;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.logo  {
+  float: left;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+.mlogo {
+  display: none;
+}
+.admissions  {
+  padding-left: 35px;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about li  {
+  margin-right: 40px;
+  font-size: 18px;
+}
+.about li a {
+  color:white;
+}
+.about li a:hover{
+  opacity: .8;
+}
+.colleges  {
+  height: 50px;
+  width: 350px;
+  background-color: #001833;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  color: rgba(255,255,255,0.1);
+}
+.colleges li a {
+  padding-right: 20px;
+  color: rgba(255,255,255,0.7);
+}
+.colleges li a:hover{
+  opacity: .8;
+}
+.button  {
+  background-color:  #002147;
+}
+.input {
+  height: 50px;
+  font-size: 12px;
+  float: left;
+  border: 0px solid;
+  width: 100px;
+  background-color: rgba(255,255,255,0.1);
+  border-color: transparent;
+}
+::placeholder {
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+}
+.search li button {
+  float: left;
+  width: 50px;
+  height:50px;
+  background: rgba(255,255,255,0.1);
+  border-color: transparent;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sec {
+  display: flex;
+  align-items: center;
+}
+.staff {
+  height: 5px;
+  width: 540px;
+  display:flex;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.staff li  {
+  padding-left: 18px;
+  margin-left: 30px;
+}
+.staff li a  {
+  color: rgba(255,255,255,0.7);
+}
+.staff li a:hover{
+  opacity: 0.5;
+}
+.dropdown-content  {
+  display: none;
+}
+.inner_main  {
+  height: 462px;
+  position: relative;
+}
+.inner_main img{
+  width: 100%
+}
+.banner 
+{
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  font-size: 21px;
+  background-color: #0000001f;
+}
+.banner h1{
+  font-size: 45px
+}
+.news_events {
+  height: 440px;
+  width: 1344px;
+  margin: auto;
+  background-color: #f3f1ec;
+  display: flex;
+}
+.news_main {
+  width: 72%;
+  height: 320px;
+  float: left;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.news_main h1  {
+  font-size: 25px;
+}
+.article {
+  float: left;
+  margin-right: 10px;
+  width: 32%;
+  padding-top: 20px;
+}
+.article p {
+  margin-top: 10px;
+
+}
+.event {
+  width: 25%;
+  height:320px;
+  float: right;
+  padding-top: 20px;
+}
+.events  {
+  font-size: 25px;
+}
+span.spani {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #002147;
+  color: white;
+  margin-top: 20px;
+}
+.event p {
+  background: #f3f1ec;
+  width: 275px;
+  padding-top: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+.discover  {
+  height: 360px;
+  width: 1344px;
+  background-color: #e0ded9;
+  margin: auto;
+}
+.discover article  {
+  width: 18.5%;
+  height: 250px;
+  float: left;
+  margin-right: 18px;
+  padding-top: 20px;
+}
+.discover_quotes {
+  background-color: #e0ded9;
+  height: 75px;
+  width: 238px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.disc article img{
+  width: 239px;
+}
+.disc  {
+  width: 100%;
+  height:400px;
+  padding: 20px 50px 0 50px;
+  box-sizing: border-box;
+}
+.study {
+  height: 370px;
+  width: 1344px;
+  background-color: #f3f1ec;
+  margin: auto;
+}
+.study article {
+  width: 23.4%;
+  height: 250px;
+  float: left;
+  margin-right: 5px;
+}
+.study_at {
+  padding-top: 20px
+}
+.studyat {
+  height:330px;
+  width: 100%;
+  padding: 20px 0px 0 50px ;
+  box-sizing: border-box;
+}
+.image1  {
+  background-image: url(./images/study1.jpg);
+  background-size: cover;
+}
+.image1 div  {
+  height: 30px;
+  width: 273px;
+  background-color: rgba(225,225,225, 0.8);
+  margin-top: 210px;
+}
+.image2  {
+  background-image: url(./images/study2.jpg);
+  background-size: cover;
+}
+.image2 div  {
+  height: 30px;
+  width: 273px;
+  background-color: rgba(225,225,225, 0.8);
+  margin-top: 210px;
+}
+.image3  {
+  background-image: url(./images/study3.jpg);
+  background-size: cover;
+}
+.image3 div  {
+  height: 30px;
+  width: 273px;
+  background-color: rgba(225,225,225, 0.8);
+  margin-top: 210px;
+}
+.image4  {
+  background-image: url(./images/study4.jpg);
+  background-size: cover;
+}
+.image4 div  {
+  height: 30px;
+  width: 273px;
+  background-color: rgba(225,225,225, 0.8);
+  margin-top: 210px;
+}
+.inner_text  {
+  padding: 10px 0 0px 30px;
+}
+.footer
+{
+width: 100%;
+}
+
+.footer {
+  color: #2C2C2C;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-top: 1.5em;
+  border-top: 1px solid #122f53;
+  padding: 1em 0;
+  background-color: #122f53;
+  text-decoration: none;
+  }
+  
+  .footer ul {
+  color: #2C2C2C;
+  font: inherit;
+  list-style: none;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .footer li.copyright {
+  font: inherit;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+  font-size: 0.813em;
+  color: #c7c2bc;
+  }
+  
+  .footer ul li {
+  color: #2C2C2C;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  font-size: 0.813em;
+  margin-left: 1em;
+  }
+
+.footer ul li a {
+list-style: none;
+border: 0;
+font: inherit;
+margin: 0;
+padding: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+outline: none;
+text-decoration: underline;
+cursor: pointer;
+color: #fff;
+}

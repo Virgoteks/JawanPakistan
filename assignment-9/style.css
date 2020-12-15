@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F2F5 ;
+}
+
+
+.main-container {
+    max-width: 1099px;
+    margin: 0 auto;
+}
+
+.inner-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 155px 0;
+}
+
+.inner-container .left-container {
+    margin-top: 20px;
+}
+
+
+.inner-container .left-container .logo img {
+    height: 75px;
+
+}
+
+
+.inner-container .left-container .txt h2 {
+    margin-top: 8px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.inner-container .right-container {
+    text-align: center;
+}
+
+
+form {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 10px 16px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+
+form .field {
+    margin-bottom: 10px;
+}
+
+form .field input {
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    height: 50px;
+    width: 96%;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+form .field input:focus {
+    outline: 1px solid var(--blue);
+}
+
+form .field button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: #166FE5;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+form .create button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: #36A420;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+
+
+.forget a {
+    text-decoration: none;
+    color: #1877F2;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+.form span {
+    font-size: 14px;
+}
+
+.form span a {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.form span a:hover {
+    text-decoration: underline;
+}

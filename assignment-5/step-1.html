@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1</title>
+</head>
+
+<body>
+    <div style="width: 25%; float: left;">-</div>
+    <div style="width: 50%; float: left;">
+        <table bgcolor="grey" width="100%">
+            <tr>
+                <th bgcolor="cyan">Step 1: Account</th>
+                <th style="padding: 10px 0px">Step 2: Personal Details</th>
+                <th>Step 3: Your Review</th>
+            </tr>
+        </table>
+        <br>
+        <fieldset>
+            <legend>
+                Account
+            </legend>
+            <form action="./step-2.html" method="get">
+                <label>
+                    Email Address:<br>
+                    <input type="email" placeholder="Enter Email" name="email">
+                </label>
+                <br><br>
+                <label>
+                    Password:<br>
+                    <input type="password" placeholder="Enter Password" name="password">
+                </label>
+                <br><br>
+                <label>
+                    Confirm Password:<br>
+                    <input type="password" placeholder="Confirm Password" name="password">
+                </label>
+                <br><br>
+                <label>
+                    <input type="checkbox"> Sign me up for email updates
+                </label><br>
+                <a href="./index.html"><img src="./Images/back.png" width="auto" height="50"></a>
+                -
+                <input type="image" src="./Images/next.png" width="auto" height="50">
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>

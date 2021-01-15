@@ -75,13 +75,13 @@ document.write(changedMessage)
 // Rounding numbers
 // 1
 var enterNum = +prompt("Enter positive number")
-a
+// a
 document.write(enterNum + "</br>")
-b
+// b
 document.write(Math.round(enterNum) + "</br>")
-c
+// c
 document.write(Math.floor(enterNum) + "</br>")
-d
+// d
 document.write(Math.ceil(enterNum) + "</br>")
 
 // 2

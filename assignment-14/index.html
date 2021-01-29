@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App - Hafiz Syed Ahsan Hussain</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="myid">Hafiz Syed Ahsan Hussain</h1>
+    </div>
+
+    <div id="main">
+        <div>
+            <p class="title">CASIO</p>
+        </div>
+        <div>
+            <input type="text" name="result" id="result" placeholder="0">
+        </div>
+        <div class="BtnRow">
+            <button class="onOffBtn" onclick="backSpace()"> &larr; </button>
+            <button class="clearBtn" onclick="clearResult()">C</button>
+        </div>
+        <div class="BtnRow">
+            <button class="Btn BtnGrey" onclick="getNumber('7')">7</button>
+            <button class="Btn BtnGrey" onclick="getNumber('8')">8</button>
+            <button class="Btn BtnGrey" onclick="getNumber('9')">9</button>
+            <button class="Btn BtnGrey" onclick="getNumber('/')">÷</button>
+        </div>
+        <div class="BtnRow">
+            <button class="Btn BtnGrey" onclick="getNumber('4')">4</button>
+            <button class="Btn BtnGrey" onclick="getNumber('5')">5</button>
+            <button class="Btn BtnGrey" onclick="getNumber('6')">6</button>
+            <button class="Btn BtnGrey" onclick="getNumber('*')">×</button>
+        </div>
+        <div class="BtnRow">
+            <button class="Btn BtnGrey" onclick="getNumber('1')">1</button>
+            <button class="Btn BtnGrey" onclick="getNumber('2')">2</button>
+            <button class="Btn BtnGrey" onclick="getNumber('3')">3</button>
+            <button class="Btn BtnGrey" onclick="getNumber('-')">-</button>
+        </div>
+        <div class="BtnRow">
+            <button class="Btn BtnGrey" onclick="getNumber('.')">.</button>
+            <button class="Btn BtnGrey" onclick="getNumber('0')">0</button>
+            <button style="background-color: #ff0080;" class="Btn BtnGrey" onclick="getResult()">=</button>
+            <button class="Btn BtnGrey" onclick="getNumber('+')">+</button>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
